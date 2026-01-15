@@ -1,0 +1,10 @@
+{
+  "date_format": "%Y-%m-%d",
+  "columns": [
+    {"name": "id", "type": "int", "required": true},
+    {"name": "name", "type": "string", "required": true},
+    {"name": "email", "type": "string", "required": true},
+    {"name": "signup_date", "type": "date", "required": false},
+    {"name": "spend", "type": "float", "required": false}
+  ]
+}
